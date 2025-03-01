@@ -1,2 +1,2 @@
-let API_ENDPOINT = "http://localhost:3000";
+let API_ENDPOINT = "https://authenticate-xubt.onrender.com";
 export default API_ENDPOINT;
