@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
       });
     }
 
-    let Resetlink = `https://jwt-1804sri.vercel.app/reset-password/${id}/${Token}`;
+    let Resetlink = `${process.env.FRONTEND_URL}/reset-password/${id}/${Token}`;
 
     var transporter = nodemailer.createTransport({
       service: "gmail",
